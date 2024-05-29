@@ -167,7 +167,7 @@ If you want to stay on nvim 0.7, disable the module, or track on 'v0.0.x' branch
     ['@markup.link.uri']          = { fg = syn.const, style = 'italic,underline' },   -- Urls, links and emails
     ['@markup.link.label']        = { link = 'Special' },                             -- Other special strings (e.g. dates)
 
-    ['@markup.raw']               = { fg = syn.ident, style = 'italic' },             -- literal or verbatim text (e.g., inline code)
+    ['@markup.raw']               = { fg = syn.ident },             -- literal or verbatim text (e.g., inline code)
     -- ['@markup.raw.block']         = { link = '@markup.raw' },                         -- literal or verbatim text as a stand-alone block
 
     ['@markup.list']              = { fg = syn.builtin2, style = stl.operators },     -- For special punctutation that does not fall in the catagories before
