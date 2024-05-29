@@ -73,7 +73,7 @@ function M.get(spec, config)
 
     Underlined     = { style = 'underline' }, -- (preferred) text that stands out, HTML links
     Bold           = { style = 'bold' },
-    Italic         = { style = 'italic' },
+    Italic         = { style = '' },
 
     -- ('Ignore', below, may be invisible...)
     -- Ignore         = {}, -- (preferred) left blank, hidden  |hl-Ignore|
